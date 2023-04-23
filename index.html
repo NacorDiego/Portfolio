@@ -4,31 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Portafolio</title>
 </head>
-<body style="background-color:cadetblue;display: flex;">
-    <menu style="width: 15%;">
-        <div style="display:flex; flex-direction: column; justify-content: center; align-items: center;">
-            <img width="100px" src="./assets/imgs/logo.png" alt="logo">
+<body style="background-color:#1D1D1D;display: flex; color: white;">
+    <menu class="menu">
+        <div class="contenedor-logo centrado">
+            <img width="150px" src="./assets/imgs/logo.png" alt="logo">
             <h2>Diego</h2>
             <span>Desarrollador Web</span>
         </div>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+        <ul class="secciones">
+            <a href="">
+                <li class="secciones__seccion secciones__seccion--sin-borde centrado">Sobre mí</li>
+            </a>
+            <a href="">
+                <li class="secciones__seccion centrado">Habilidades</li>
+            </a>
+            <a href="">
+                <li class="secciones__seccion centrado">Proyectos</li>
+            </a>
+            <a href="">
+                <li class="secciones__seccion centrado">Contacto</li>
+            </a>
         </ul>
-        <ul>
-            <li><a href=""><img src="" alt=""></a></li>
-            <li><a href=""><img src="" alt=""></a></li>
-            <li><a href=""><img src="" alt=""></a></li>
+        <ul class="redes centrado">
+            <li>
+                <a href=""><i class="fa-brands fa-github fa-2x" style="color: #a8a8a8;"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="fa-brands fa-linkedin fa-2x" style="color: #a8a8a8;"></i></a>
+            </li>
         </ul>
     </menu>
     <main style="width: 85%;">
-        <h1>Hola, mi nombre es Diego Nacor y soy desarrollador web.</h1>
+        <h1>Hola,<br>
+            soy Diego,<br>
+            desarrollador web</h1>
         <button>Contactame</button>
     </main>
 </body>
